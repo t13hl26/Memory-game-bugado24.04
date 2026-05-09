@@ -1,0 +1,1 @@
+convert -crop 7x7@  +repage  +adjoin original.JPG  export_7x7@_%d.JPG

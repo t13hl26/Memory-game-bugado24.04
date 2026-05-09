@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2283b35d1f4124c83a6a3e1660a75c, type: 3}
+  m_Name: PhaseConfig
+  m_EditorClassIdentifier: 
+  phases:
+  - phaseName: "Sales\xF3polis"
+    phaseDescription: Restaure a fauna e flora nativa do rio!
+    columns: 3
+    rows: 2
+    timeLimit: 90
+    riverColor: {r: 0.39215687, g: 0.7058824, b: 1, a: 1}
+    mudIntensity: 0.3
+    availableCards: []
+    enableSabotage: 0
+    maxSabotageCards: 0
+  - phaseName: Zona Rural
+    phaseDescription: "Identifique e remova os res\xEDduos das margens do rio!"
+    columns: 4
+    rows: 3
+    timeLimit: 90
+    riverColor: {r: 0.54509807, g: 0.3529412, b: 0.16862746, a: 1}
+    mudIntensity: 0.6
+    availableCards: []
+    enableSabotage: 0
+    maxSabotageCards: 0
+  - phaseName: "S\xE3o Paulo"
+    phaseDescription: "Encontre os filtros e leis ambientais antes que a polui\xE7\xE3o
+      tome conta!"
+    columns: 4
+    rows: 4
+    timeLimit: 30
+    riverColor: {r: 0.39215687, g: 0.39215687, b: 0.39215687, a: 1}
+    mudIntensity: 1
+    availableCards: []
+    enableSabotage: 1
+    maxSabotageCards: 3
